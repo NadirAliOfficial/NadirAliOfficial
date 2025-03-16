@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @NadirAliOfficial
 - 👀 I’m interested in Programming 
 - 🌱 I’m currently learning Machine Learning 
-- 💞️ I’m looking to collaborate on MERN projects 
+- 💞️ I’m looking to collaborate on Blockchain projects 
 - 📫 How to reach me https://www.linkedin.com/in/teamnadiralikhan
 - 😄 Pronouns: Lala
 - ⚡ Fun fact: I'm a philosopher 
