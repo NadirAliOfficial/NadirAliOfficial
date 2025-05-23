@@ -1,12 +1,12 @@
-- 👋 Hi, I’m @NadirAliOfficial
-- 👀 I’m interested in Programming 
-- 🌱 I’m currently learning Machine Learning 
-- 💞️ I’m looking to collaborate on Blockchain projects 
-- 📫 How to reach me https://www.linkedin.com/in/teamnadiralikhan
-- 😄 Pronouns: Lala
-- ⚡ Fun fact: I'm a philosopher 
 
-<!---
-NadirAliOfficial/NadirAliOfficial is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+### 👋 Hi, I'm Nadir Ali Khan
+
+**CEO & Founder – [Team NAK](https://www.theteamnak.com)**
+
+🚀 Passionate about **software development**, **blockchain**, and **AI/ML**
+📈 Currently learning **Machine Learning** to level up my automation game
+🤝 Open to collaborating on **Web3**, **DeFi**, and real-world automation projects
+🌐 Connect with me on [LinkedIn](https://www.linkedin.com/in/teamnadiralikhan)
+💭 Fun fact: I blend **code and philosophy** to build with purpose
+🧠 Nickname: *Lala* — I lead with heart, hustle, and high standards
+
