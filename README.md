@@ -1,10 +1,10 @@
 ### 👋 Hi, I'm Nadir Ali Khan
 
-**CEO & Founder – [Team NAK](https://www.theteamnak.com){:target="_blank"}**
+<strong>CEO & Founder – <a href="https://www.theteamnak.com" target="_blank">Team NAK</a></strong><br><br>
 
-🚀 Passionate about **software development**, **blockchain**, and **AI/ML**  
-📈 Currently learning **Machine Learning** to level up my automation game  
-🤝 Open to collaborating on **Web3**, **DeFi**, and real-world automation projects  
-🌐 Connect with me on [LinkedIn](https://www.linkedin.com/in/teamnadiralikhan){:target="_blank"}  
-💭 Fun fact: I blend **code and philosophy** to build with purpose  
-🧠 Nickname: *Lala* — I lead with heart, hustle, and high standards  
+🚀 Passionate about <b>software development</b>, <b>blockchain</b>, and <b>AI/ML</b><br>
+📈 Currently learning <b>Machine Learning</b> to level up my automation game<br>
+🤝 Open to collaborating on <b>Web3</b>, <b>DeFi</b>, and real-world automation projects<br>
+🌐 Connect with me on <a href="https://www.linkedin.com/in/teamnadiralikhan" target="_blank">LinkedIn</a><br>
+💭 Fun fact: I blend <b>code and philosophy</b> to build with purpose<br>
+🧠 Nickname: <i>Lala</i> — I lead with heart, hustle, and high standards
