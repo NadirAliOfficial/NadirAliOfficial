@@ -23,22 +23,6 @@ designed to run in production.
 
 ---
 
-## Selected work
-
-**TradeFlow AI**  
-Automated execution and trading alerts  
-
-**IBKR Trading Bots**  
-Multi-ticker, rule-based automation systems  
-
-**Solana dApps**  
-On-chain analytics and automation tools  
-
-**Trading Dashboards**  
-Cross-platform apps for monitoring and control  
-
----
-
 ## Tech
 
 <p>
