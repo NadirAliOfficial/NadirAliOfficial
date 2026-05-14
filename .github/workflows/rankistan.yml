@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Create daily release and keep only 3 per repo
         env:
-          GH_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+          GH_TOKEN: ${{ secrets.RANK }}
         run: |
           TAG="v$(date +%Y.%m.%d)"
 
