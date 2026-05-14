@@ -1,0 +1,39 @@
+name: Maintain Rankistan Score
+
+on:
+  schedule:
+    - cron: '50 10 * * *'  # 10:50 UTC = 3:50 PM PKT daily
+  workflow_dispatch:
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create daily release and keep only 3 per repo
+        env:
+          GH_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+        run: |
+          TAG="v$(date +%Y.%m.%d)"
+
+          repos=$(gh repo list NadirAliOfficial --limit 200 --json name,isPrivate,isArchived \
+            --jq '.[] | select(.isPrivate==false and .isArchived==false) | .name')
+
+          for repo in $repos; do
+            # Create today's release
+            gh release create "$TAG" \
+              --repo "NadirAliOfficial/$repo" \
+              --title "$TAG" \
+              --notes "Release $TAG" 2>/dev/null || true
+
+            # Delete all except the 3 most recent
+            gh release list --repo "NadirAliOfficial/$repo" \
+              --limit 100 --json tagName,createdAt \
+              --jq 'sort_by(.createdAt) | reverse | .[3:] | .[].tagName' | \
+            while read old_tag; do
+              gh release delete "$old_tag" \
+                --repo "NadirAliOfficial/$repo" \
+                --yes --cleanup-tag 2>/dev/null || true
+            done
+          done
+
+          echo "Done — releases created and cleaned for all repos"
