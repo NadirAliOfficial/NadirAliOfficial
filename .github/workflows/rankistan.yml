@@ -9,7 +9,7 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-      - name: Create daily release and keep only 3 per repo
+      - name: Create daily release on all repos
         env:
           GH_TOKEN: ${{ secrets.RANK }}
         run: |
@@ -19,21 +19,10 @@ jobs:
             --jq '.[] | select(.isPrivate==false and .isArchived==false) | .name')
 
           for repo in $repos; do
-            # Create today's release
             gh release create "$TAG" \
               --repo "NadirAliOfficial/$repo" \
               --title "$TAG" \
               --notes "Release $TAG" 2>/dev/null || true
-
-            # Delete all except the 3 most recent
-            gh release list --repo "NadirAliOfficial/$repo" \
-              --limit 100 --json tagName,createdAt \
-              --jq 'sort_by(.createdAt) | reverse | .[3:] | .[].tagName' | \
-            while read old_tag; do
-              gh release delete "$old_tag" \
-                --repo "NadirAliOfficial/$repo" \
-                --yes --cleanup-tag 2>/dev/null || true
-            done
           done
 
-          echo "Done — releases created and cleaned for all repos"
+          echo "Done"
