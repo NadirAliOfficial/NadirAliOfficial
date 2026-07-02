@@ -3,7 +3,7 @@
 ### Founder @ [Team NAK](https://www.theteamnak.com)
 
 [![Rankistan rank badge](https://img.shields.io/endpoint?url=https%3A%2F%2Frankistan-summary-api.academics-ali.workers.dev%2Fapi%2Fbadge%2FNadiraliofficial&style=for-the-badge)](https://rankistan.dev)
-[![Fiverr Choice](https://img.shields.io/badge/Fiverr-Choice%20Seller-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white)](https://www.fiverr.com/nadiraliofficial)
+<img src="https://raw.githubusercontent.com/NadirAliOfficial/NadirAliOfficial/main/fiverrs-choice.svg" height="28"/>
 
 <img src="https://readme-typing-svg.herokuapp.com?color=4ADE80&size=18&lines=Trading+Systems;Solana+%26+Ethereum;Web3+dApps;Flutter+Apps" />
 
