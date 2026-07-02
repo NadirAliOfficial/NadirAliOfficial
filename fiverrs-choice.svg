@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="200" height="36" viewBox="0 0 200 36">
-  <rect width="200" height="36" rx="6" fill="#1B2340"/>
-  <!-- Fiverr green circle logo -->
-  <circle cx="22" cy="18" r="12" fill="#1DBF73"/>
-  <text x="22" y="23" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">f</text>
-  <!-- Badge text -->
-  <text x="42" y="23" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">FIVERR'S</text>
-  <text x="118" y="23" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#C8A84B">CHOICE</text>
-</svg>
